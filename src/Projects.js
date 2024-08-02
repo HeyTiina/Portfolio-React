@@ -1,7 +1,6 @@
 import React from "react";
-import imagen from "./images/Valentina.jpg";
 
-export default function Footer() {
+export default function Projects() {
   return (
     <section>
       <div className="row">

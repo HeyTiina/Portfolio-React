@@ -1,0 +1,38 @@
+.header {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.237);
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-1 {
+  flex-basis: 50%;
+}
+
+.column-2 {
+  flex-basis: 50%;
+}
+
+.presentation {
+  text-align: center;
+}
+
+.Valentina-profile {
+  width: 300px;
+  border-radius: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 50px;
+}
