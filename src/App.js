@@ -11,8 +11,8 @@ function App() {
       <header className="App-header">
         <Description />
         <Projects />
-        <Knowledge />
         <Contact />
+        <Knowledge />
         <Social />
       </header>
     </div>
