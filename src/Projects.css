@@ -23,7 +23,7 @@ p {
   margin: 10px;
 }
 
-img {
+.container img {
   width: 500px;
   border-radius: 10px;
   display: block;
