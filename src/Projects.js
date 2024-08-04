@@ -12,34 +12,66 @@ export default function Projects() {
         <h1>My Recent Work</h1>
         <div className="container">
           <div className="column-1">
-            <img
-              className="Weather img-fluid"
-              src={Weather}
-              alt="Weather website"
-            />
+            <div className="project-container">
+              <img
+                className="Weather img-fluid"
+                src={Weather}
+                alt="Weather website"
+              />
+              <div className="project-overlay">
+                <p>Mira mi proyecto</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Ver proyecto
+                </a>
+              </div>
+            </div>
           </div>
           <div className="column-2">
-            <img
-              className="Travel-blog img-fluid"
-              src={Travelblog}
-              alt="Travel blog - TravelUS"
-            />
+            <div className="project-container">
+              <img
+                className="Travel-blog img-fluid"
+                src={Travelblog}
+                alt="Travel blog - TravelUS"
+              />
+              <div className="project-overlay">
+                <p>Mira mi proyecto</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Ver proyecto
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="container">
           <div className="column-1">
-            <img
-              className="Dictionary img-fluid"
-              src={Dictionary}
-              alt="Dictionary"
-            />
+            <div className="project-container">
+              <img
+                className="Dictionary img-fluid"
+                src={Dictionary}
+                alt="Dictionary"
+              />
+              <div className="project-overlay">
+                <p>Mira mi proyecto</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Ver proyecto
+                </a>
+              </div>
+            </div>
           </div>
           <div className="column-2">
-            <img
-              className="Ai-generator img-fluid"
-              src={Aigenerator}
-              alt="Ai generator"
-            />
+            <div className="project-container">
+              <img
+                className="Ai-generator img-fluid"
+                src={Aigenerator}
+                alt="Ai generator"
+              />
+              <div className="project-overlay">
+                <p>Mira mi proyecto</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Ver proyecto
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
