@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Description />
-        <Knowledge />
         <Projects />
+        <Knowledge />
         <Contact />
         <Social />
       </header>
