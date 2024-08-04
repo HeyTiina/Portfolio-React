@@ -7,7 +7,7 @@ import Aigenerator from "./ai-generator.png";
 
 export default function Projects() {
   return (
-    <section>
+    <div>
       <div>
         <h1>My Recent Work</h1>
         <div className="container">
@@ -43,10 +43,10 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div>
+      <p>
         I’m diving into new skills every day, eager to grow in the IT field and
         shape my own future.
-      </div>
-    </section>
+      </p>
+    </div>
   );
 }
