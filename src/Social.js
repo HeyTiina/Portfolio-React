@@ -2,7 +2,6 @@ import React from "react";
 import "./Social.css";
 
 import Linkedin from "./social/linkedin.png";
-import Mail from "./social/mail.png";
 import Instagram from "./social/instagram.png";
 import GitHub from "./social/github.png";
 
@@ -16,10 +15,29 @@ export default function Social() {
         to contact me!
       </h3>
       <div className="grid-container">
-        <img className="social-icons" src={Linkedin} alt="Linkedin" />{" "}
-        <img className="social-icons" src={Mail} alt="Mail" />{" "}
-        <img className="social-icons" src={Instagram} alt="Instagram" />{" "}
-        <img className="social-icons" src={GitHub} alt="Github" />{" "}
+        <a
+          href="https://www.linkedin.com/in/valentina-bastidas-castillo-654652266/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="social-icons" src={Linkedin} alt="Linkedin" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/hey.tiina/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="social-icons" src={Instagram} alt="Instagram" />
+        </a>
+
+        <a
+          href="https://github.com/HeyTiina"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="social-icons" src={GitHub} alt="Github" />
+        </a>
       </div>
     </section>
   );

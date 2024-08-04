@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import Weather from "./weather-site.png";
-import Dictionary from "./Dictionary.png";
-import Travelblog from "./travel-blog.png";
-import Aigenerator from "./ai-generator.png";
+import Weather from "./projects/weather-site.png";
+import Dictionary from "./projects/Dictionary.png";
+import Travelblog from "./projects/travel-blog.png";
+import Aigenerator from "./projects/ai-generator.png";
 
 export default function Projects() {
   return (
