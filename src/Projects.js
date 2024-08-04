@@ -91,10 +91,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <p>
-        I’m diving into new skills every day, eager to grow in the IT field and
-        shape my own future. <strong>Ready to start new projects.</strong>
-      </p>
+  
     </section>
   );
 }

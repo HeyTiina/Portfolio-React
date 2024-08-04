@@ -4,6 +4,7 @@ import Knowledge from "./Knowledge.js";
 import Projects from "./Projects.js";
 import Contact from "./Contact.js";
 import Social from "./Social.js";
+import About from "./About.js";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <header className="App-header">
         <Description />
         <Projects />
-        <Contact />
+        <About />
         <Knowledge />
+        <Contact />
         <Social />
       </header>
     </div>

@@ -5,11 +5,15 @@ import "./Description.css";
 export default function Description() {
   return (
     <section>
-      <div className="container">
+      <div className="description-container">
         <div className="column-1 presentation">
-          <h1>Hello World!</h1>
-          <h2>I'm Valentina Bastidas C.</h2>
-          <h3>Front-End Developer based in Zürich, Switzerland</h3>
+          <h1>I'm Valentina Bastidas C.</h1>
+          <h2>Front-End Developer based in Zürich, Switzerland</h2>
+          <p>
+            I’m diving into new skills every day, eager to grow in the IT field
+            and shape my own future.{" "}
+            <strong>Ready to start new projects.</strong>
+          </p>
         </div>
         <div className="column-2">
           <img
@@ -19,13 +23,6 @@ export default function Description() {
           />
         </div>
       </div>
-      <p className="description">
-        I graduated last year and am ready to take on new challenges by bringing
-        extensive work-under-pressure experience in catering services from
-        Mallorca, Spain. I am a hardworking team player looking to join a
-        motivated team in an exciting environment, to develop my skills and
-        learn new ones.
-      </p>
     </section>
   );
 }

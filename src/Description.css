@@ -1,8 +1,9 @@
-.container {
+.description-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin:  60px 0;
 }
 
 .column-1 {
@@ -19,7 +20,7 @@
 
 .Valentina-profile {
   width: 300px;
-  border-radius: 80%;
+  border-radius: 20px;
   display: block;
   margin: 0 auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
