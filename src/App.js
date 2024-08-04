@@ -5,6 +5,8 @@ import Projects from "./Projects.js";
 import Contact from "./Contact.js";
 import Social from "./Social.js";
 import About from "./About.js";
+import Footer from "./Footer.js";
+
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
         <Projects />
         <About />
         <Knowledge />
-        <Contact />
         <Social />
+        <Contact />
+        <Footer />
       </header>
     </div>
   );

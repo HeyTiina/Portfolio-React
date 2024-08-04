@@ -1,0 +1,25 @@
+.social .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+
+.social-icons {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #000; /* Agregué un borde de 1px de color negro */
+  background-color: #fff; /* Color de fondo blanco */
+  transition: all 0.3s ease; /* Agregué una transición para que el cambio sea suave */
+}
+
+.social-icons:hover {
+  background-color: #898888; /* Color de fondo negro en hover */
+  border-color: #fff; /* Color del borde blanco en hover */
+}
+
+h3 {
+  text-align: center;
+}
