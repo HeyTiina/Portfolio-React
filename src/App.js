@@ -2,7 +2,6 @@ import "./App.css";
 import Description from "./Description.js";
 import Knowledge from "./Knowledge.js";
 import Projects from "./Projects.js";
-import Contact from "./Contact.js";
 import Social from "./Social.js";
 import About from "./About.js";
 import Footer from "./Footer.js";
@@ -17,7 +16,6 @@ function App() {
         <About />
         <Knowledge />
         <Social />
-        <Contact />
         <Footer />
       </header>
     </div>

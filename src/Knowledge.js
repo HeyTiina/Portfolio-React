@@ -1,20 +1,20 @@
 import React from "react";
 import "./Knowledge.css";
 
-import HTML from "./icons/html.png";
-import CSS from "./icons/css.png";
-import JavaScript from "./icons/javascript.png";
-import VSCode from "./icons/vscode.png";
-import API from "./icons/api.png";
-import Git from "./icons/git.png";
-import GitHub from "./icons/github.png";
-import Hosting from "./icons/hosting.png";
-import AI from "./icons/ai.png";
-import Bootstrap from "./icons/bootstrap.png";
-import SEO from "./icons/seo.png";
-import Responsive from "./icons/responsive.png";
-import ReactIcon from "./icons/react.png";
-import Loading from "./icons/loading.png";
+import HTML from "./IconsT&L/html.png";
+import CSS from "./IconsT&L/css.png";
+import JavaScript from "./IconsT&L/javascript.png";
+import VSCode from "./IconsT&L/vscode.png";
+import API from "./IconsT&L/api.png";
+import Git from "./IconsT&L/git.png";
+import GitHub from "./IconsT&L/github.png";
+import Hosting from "./IconsT&L/hosting.png";
+import AI from "./IconsT&L/ai.png";
+import Bootstrap from "./IconsT&L/bootstrap.png";
+import SEO from "./IconsT&L/seo.png";
+import Responsive from "./IconsT&L/responsive.png";
+import ReactIcon from "./IconsT&L/react.png";
+import Soon from "./IconsT&L/soon.gif";
 
 export default function Knowledge() {
   return (
@@ -35,7 +35,7 @@ export default function Knowledge() {
           { icon: SEO, text: "SEO" },
           { icon: Responsive, text: "Responsive" },
           { icon: ReactIcon, text: "React" },
-          { icon: Loading, text: "" },
+          { icon: Soon, text: "" },
         ].map((item, index) => (
           <div key={index} className="grid-item">
             <img className="icon" src={item.icon} alt={item.text} />
