@@ -1,19 +1,24 @@
-.social .grid-container {
+.grid-container-social {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.grid-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .social-icons {
-  width: 80px;
-  height: 80px;
-  padding: 10px;
-  margin: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+    transition: transform 0.2s ease-in-out;
+
 }
 
-h3 {
-  text-align: center;
+.social-icons:hover {
+  transform: scale(1.2);
 }
