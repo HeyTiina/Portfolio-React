@@ -1,46 +1,43 @@
 import React from "react";
 import "./Knowledge.css";
 
-import HTML from "./IconsT&L/html.png";
-import CSS from "./IconsT&L/css.png";
-import JavaScript from "./IconsT&L/javascript.png";
-import VSCode from "./IconsT&L/vscode.png";
-import API from "./IconsT&L/api.png";
-import Git from "./IconsT&L/git.png";
-import GitHub from "./IconsT&L/github.png";
-import Hosting from "./IconsT&L/hosting.png";
-import AI from "./IconsT&L/ai.png";
-import Bootstrap from "./IconsT&L/bootstrap.png";
-import SEO from "./IconsT&L/seo.png";
-import Responsive from "./IconsT&L/responsive.png";
-import ReactIcon from "./IconsT&L/react.png";
-import Soon from "./IconsT&L/soon.gif";
+const icons = {
+  HTML: { icon: require("./IconsT&L/html.png"), text: "HTML" },
+  CSS: { icon: require("./IconsT&L/css.png"), text: "CSS" },
+  JavaScript: {
+    icon: require("./IconsT&L/javascript.png"),
+    text: "JavaScript",
+  },
+  VSCode: { icon: require("./IconsT&L/vscode.png"), text: "VSCode" },
+  API: { icon: require("./IconsT&L/api.png"), text: "API" },
+  Git: { icon: require("./IconsT&L/git.png"), text: "Git" },
+  GitHub: { icon: require("./IconsT&L/github.png"), text: "GitHub" },
+  Hosting: { icon: require("./IconsT&L/hosting.png"), text: "Hosting" },
+  AI: { icon: require("./IconsT&L/ai.png"), text: "AI" },
+  Bootstrap: { icon: require("./IconsT&L/bootstrap.png"), text: "Bootstrap" },
+  SEO: { icon: require("./IconsT&L/seo.png"), text: "SEO" },
+  Responsive: {
+    icon: require("./IconsT&L/responsive.png"),
+    text: "Responsive",
+  },
+  React: { icon: require("./IconsT&L/react.png"), text: "React" },
+  Soon: { icon: require("./IconsT&L/soon.gif"), text: "" },
+};
+
+const Icon = ({ icon, text }) => (
+  <div className="icon-container">
+    <img className="icon" src={icon} alt={text} />
+    <p>{text}</p>
+  </div>
+);
 
 export default function Knowledge() {
   return (
     <section className="knowledge-section">
       <h1 className="title-knowledge">Languages and Tools</h1>
       <div className="grid-container">
-        {[
-          { icon: HTML, text: "HTML" },
-          { icon: CSS, text: "CSS" },
-          { icon: JavaScript, text: "JavaScript" },
-          { icon: VSCode, text: "VSCode" },
-          { icon: API, text: "API" },
-          { icon: Git, text: "Git" },
-          { icon: GitHub, text: "GitHub" },
-          { icon: Hosting, text: "Hosting" },
-          { icon: AI, text: "AI" },
-          { icon: Bootstrap, text: "Bootstrap" },
-          { icon: SEO, text: "SEO" },
-          { icon: Responsive, text: "Responsive" },
-          { icon: ReactIcon, text: "React" },
-          { icon: Soon, text: "" },
-        ].map((item, index) => (
-          <div key={index} className="grid-item">
-            <img className="icon" src={item.icon} alt={item.text} />
-            <p>{item.text}</p>
-          </div>
+        {Object.keys(icons).map((key, index) => (
+          <Icon key={index} icon={icons[key].icon} text={icons[key].text} />
         ))}
       </div>
     </section>
