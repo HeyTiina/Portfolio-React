@@ -19,7 +19,7 @@ import Soon from "./IconsT&L/soon.gif";
 export default function Knowledge() {
   return (
     <section className="knowledge-section">
-      <h1>Languages and Tools</h1>
+      <h1 className="title-knowledge">Languages and Tools</h1>
       <div className="grid-container">
         {[
           { icon: HTML, text: "HTML" },
