@@ -20,13 +20,16 @@ export default function Projects() {
                   alt="Weather website"
                 />
                 <div className="project-overlay">
-                  <p>Mira mi proyecto</p>
+                  <p>
+                    Weather website using React with a forecast and a change of
+                    mesurements included!
+                  </p>
                   <a
                     href="https://vanillareat.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Ver proyecto
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -39,13 +42,16 @@ export default function Projects() {
                   alt="Travel blog - TravelUS"
                 />
                 <div className="project-overlay">
-                  <p>Mira mi proyecto</p>
+                  <p>
+                    Playing a lot with CSS, I could improve a lot with this
+                    travel website
+                  </p>
                   <a
                     href="https://travel-blog-deals.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Ver proyecto
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -60,13 +66,13 @@ export default function Projects() {
                   alt="Dictionary"
                 />
                 <div className="project-overlay">
-                  <p>Mira mi proyecto</p>
+                  <p>Dictionary with photos for help. Any word you need to know?</p>
                   <a
                     href="https://reactdictionarybytiina.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Ver proyecto
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -79,13 +85,13 @@ export default function Projects() {
                   alt="Ai generator"
                 />
                 <div className="project-overlay">
-                  <p>Mira mi proyecto</p>
+                  <p>Your AI Tina at your disposicion. Do you have any question?</p>
                   <a
                     href="https://ai-bytiina.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Ver proyecto
+                    Check it out
                   </a>
                 </div>
               </div>
