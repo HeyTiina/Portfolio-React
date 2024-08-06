@@ -1,3 +1,10 @@
+.description{
+  background-color: #132743;
+  padding: 30px;
+  border-radius: 20px;
+  color: #ffb5b5;
+}
+
 .description-container {
   display: flex;
   flex-direction: row;
@@ -16,13 +23,12 @@
 
 .presentation {
   text-align: center;
+  padding: 40px;
 }
 
 .Valentina-profile {
-  width: 300px;
+  width: 400px;
   border-radius: 200px;
-  display: block;
-  float: right;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
