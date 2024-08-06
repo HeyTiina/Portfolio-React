@@ -24,22 +24,22 @@ export default function Projects() {
       <div className="grid">
         <Project
           image={weatherImage}
-          description="Weather website using React with a forecast and a change of mesurements included!"
-          link="https://vanillareat.netlify.app"
+          description="A weather website built with React, featuring a detailed forecast and the ability to switch between different units of measurement."
+          link="https://vanillareact.netlify.app"
         />
         <Project
           image={travelblogImage}
-          description="Playing a lot with CSS, I could improve a lot with this travel website"
+          description="A travel blog that showcases advanced CSS techniques, enhancing the visual appeal and user experience."
           link="https://travel-blog-deals.netlify.app"
         />
         <Project
           image={dictionaryImage}
-          description="Dictionary with photos for help. Any word you need to know?"
+          description="An intuitive dictionary app with image support, making it easy to find and understand any word you need."
           link="https://reactdictionarybytiina.netlify.app"
         />
         <Project
           image={aigeneratorImage}
-          description="Your AI Tina at your disposicion. Do you have any question?"
+          description="Meet your AI assistant, Tina, ready to answer any questions you have. Explore the possibilities with this AI generator."
           link="https://ai-bytiina.netlify.app"
         />
       </div>
