@@ -42,7 +42,7 @@
 
 .project-container:hover .project-overlay {
   opacity: 1;
-  background-color: #ffcbcb; /* Color marrón */
+  background-color: #ffcbcb;
 }
 
 .project-overlay p {
@@ -76,14 +76,25 @@
     gap: 30px;
     padding-bottom: 40px;
     flex-direction: column;
-    text-align: center;
+  }
+
+  .project-container {
+    margin: 0 auto; /* Agrega esto para centrar horizontalmente */
+    text-align: center; /* Agrega esto para centrar horizontalmente */
+    position: relative; /* Make sure the container is relative */
+  }
+
+  .project-container img {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .project-overlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 80%;
+    text-align: center;
+    align-items: center;
   }
-  .project-container img {
-    width: 80%;
-  }
- 
 }
