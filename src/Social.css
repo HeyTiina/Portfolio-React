@@ -1,3 +1,7 @@
+h3 {
+  text-align: center;
+}
+
 .grid-container-social {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
