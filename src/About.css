@@ -7,3 +7,15 @@
   max-width: 1400px;
   text-align: center;
 }
+
+@media only screen and (max-width: 480px) {
+  .about {
+  font-size: 22px;
+  background-color: #132743;
+  padding: 30px;
+  border-radius: 0px;
+  color: #ffb5b5;
+  max-width: 1400px;
+  text-align: center;
+}
+}
