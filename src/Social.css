@@ -1,5 +1,6 @@
 h3 {
   text-align: center;
+  padding: 0 20px;
 }
 
 .grid-container-social {
@@ -19,7 +20,7 @@ h3 {
   width: 60px;
   height: 60px;
   margin: 10px;
-    transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 
 }
 
