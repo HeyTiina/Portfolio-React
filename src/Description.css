@@ -41,7 +41,8 @@
 @media only screen and (max-width: 480px) {
   /* Estilos específicos para pantallas pequeñas */
   .description {
-    width: 80%;
+    width: 100%;
+    padding: 0%;
   }
   
   .description-container {
@@ -58,5 +59,9 @@
 
   .column-2 {
     flex-basis: 100%;
+  }
+
+  .Valentina-profile {
+    width: 80%;
   }
 }
