@@ -7,7 +7,7 @@ export default function Description() {
     <section className="description">
       <div className="description-container">
         <div className="column-1 presentation">
-          <h1 className="m-3">I'm Valentina Bastidas C.</h1>
+          <h1>I'm Valentina Bastidas C.</h1>
           <h2>Front-End Developer based in Zürich, Switzerland</h2>
           <p className="m-4">
             I’m diving into new skills every day, eager to grow in the IT field
@@ -17,7 +17,7 @@ export default function Description() {
         </div>
         <div className="column-2">
           <img
-            className="Valentina-profile img-fluid"
+            className="Valentina-profile"
             src={Valentina}
             alt="Valentina Bastidas C."
           />
