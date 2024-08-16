@@ -9,7 +9,7 @@ export default function Description() {
         <div className="column-1 presentation">
           <h1>I'm Valentina Bastidas C.</h1>
           <h2>Front-End Developer based in Zürich, Switzerland</h2>
-          <p className="m-4">
+          <p>
             I’m diving into new skills every day, eager to grow in the IT field
             and shape my own future.{" "}
             <strong>Ready to start new projects.</strong>
