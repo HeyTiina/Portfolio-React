@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 30px;
-  padding-bottom: 40px;
 }
 
 .project-container {
@@ -45,7 +44,7 @@
   margin-bottom: 20px;
   text-align: center;
   padding: 20px;
-  font-size: 22px;
+  font-size: 1.2rem;
 }
 
 .project-overlay a {
@@ -53,7 +52,7 @@
   color: #333;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   border-radius: 20px;
   text-decoration: none;
