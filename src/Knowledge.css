@@ -1,4 +1,4 @@
-.title-knowledge{
+.title-knowledge {
   padding-bottom: 30px;
 }
 
@@ -6,8 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-    padding-bottom: 30px;
-
+  padding-bottom: 30px;
 }
 
 .grid-container {
@@ -25,4 +24,12 @@
 .icon {
   width: 10rem;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Estilos específicos para pantallas pequeñas */
+  .icon {
+    width: 50%;
+    margin-bottom: 10px;
+  }
 }
