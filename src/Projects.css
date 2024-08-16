@@ -71,6 +71,11 @@
 
 @media only screen and (max-width: 480px) {
   /* Estilos específicos para pantallas pequeñas */
+
+  .title {
+    font-size: 35px;
+    margin-top: 30px;
+  }
   .grid {
     display: flex;
     gap: 30px;
@@ -99,7 +104,7 @@
   }
 
   .project-overlay p {
-  padding: 10px;
-  font-size: 18px;
-}
+    padding: 10px;
+    font-size: 18px;
+  }
 }
