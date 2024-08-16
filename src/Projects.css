@@ -1,4 +1,4 @@
-.title{
+.title {
   padding-bottom: 30px;
 }
 
@@ -61,11 +61,29 @@
   cursor: pointer;
   border-radius: 20px;
   text-decoration: none;
-    font-size: 22px;
-
+  font-size: 22px;
 }
 
 .project-overlay a:hover {
   background-color: #132743;
   color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Estilos específicos para pantallas pequeñas */
+  .grid {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-overlay {
+    width: 80%;
+  }
+  .project-container img {
+    width: 80%;
+  }
+ 
 }
