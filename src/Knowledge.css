@@ -28,6 +28,12 @@
 
 @media only screen and (max-width: 480px) {
   /* Estilos específicos para pantallas pequeñas */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
   .icon {
     width: 50%;
     margin-bottom: 10px;
