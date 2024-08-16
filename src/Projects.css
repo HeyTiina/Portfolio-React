@@ -1,7 +1,3 @@
-.title {
-  padding-bottom: 30px;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -71,11 +67,6 @@
 
 @media only screen and (max-width: 480px) {
   /* Estilos específicos para pantallas pequeñas */
-
-  .title {
-    font-size: 35px;
-    margin-top: 30px;
-  }
   .grid {
     display: flex;
     gap: 30px;

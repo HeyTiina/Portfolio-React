@@ -34,7 +34,7 @@ const SocialMediaItem = ({ socialMedia }) => (
 
 const Social = () => (
   <section className="social">
-    <h1>Let's get in touch!</h1>
+    <h1 className="title">Let's get in touch!</h1>
     <h3> I'm always looking for new opportunities. Feel free to contact me!</h3>
     <div className="grid-container-social">
       {socialMedia.map((socialMediaItem) => (

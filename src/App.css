@@ -1,6 +1,6 @@
 .App {
   background-color: #dc0b0b;
-} 
+}
 
 .App-header {
   min-height: 100vh;
@@ -12,6 +12,14 @@
   background-color: rgb(255, 255, 255);
 }
 
-h1{
+h1 {
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Estilos específicos para pantallas pequeñas */
+  .title {
+    font-size: 35px;
+    margin: 30px;
+  }
 }
