@@ -34,7 +34,9 @@ const Icon = ({ icon, text }) => (
 export default function Knowledge() {
   return (
     <section className="knowledge-section">
-      <h1 className="title">Languages and Tools</h1>
+      <h1 className="title">
+        Thank you Google Career Certificates and SheCodes!{" "}
+      </h1>
       <div className="grid-container">
         {Object.keys(icons).map((key, index) => (
           <Icon key={index} icon={icons[key].icon} text={icons[key].text} />
