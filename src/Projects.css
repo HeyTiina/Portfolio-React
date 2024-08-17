@@ -1,50 +1,51 @@
-.grid {
+.projects-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  width: 1000px;
 }
 
-.project-container {
+.project {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.project-container img {
-  width: 32rem;
-  object-fit: cover;
+.project img {
+  width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .project-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #132743;
-  padding: 20px;
+  right: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.8s;
   border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.project-container:hover .project-overlay {
+.project:hover .project-overlay {
   opacity: 1;
-  background-color: #ffcbcb;
+  background-color: gray;
 }
 
 .project-overlay p {
-  margin-bottom: 20px;
   text-align: center;
-  padding: 20px;
-  font-size: 1.2rem;
+  padding: 5px 40px;
+  font-size: 16px;
 }
 
 .project-overlay a {
@@ -52,11 +53,10 @@
   color: #333;
   border: none;
   padding: 10px 20px;
-  font-size: 1rem;
   cursor: pointer;
   border-radius: 20px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .project-overlay a:hover {
@@ -66,38 +66,5 @@
 
 @media only screen and (max-width: 480px) {
   /* Estilos específicos para pantallas pequeñas */
-  .grid {
-    display: flex;
-    gap: 30px;
-    padding-bottom:  0px;
-    flex-direction: column;
-  }
 
-  .project-container {
-    margin: 0 auto; /* Agrega esto para centrar horizontalmente */
-    text-align: center; /* Agrega esto para centrar horizontalmente */
-    position: relative; /* Make sure the container is relative */
-  }
-
-  .project-container img {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .project-overlay {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
-    align-items: center;
-  }
-
-  .project-overlay p {
-    padding: 10px;
-    font-size: 1rem;
-  }
-.project-overlay a {
-    font-size: 1.3rem;
-  }
 }

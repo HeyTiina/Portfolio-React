@@ -6,7 +6,7 @@ import travelblogImage from "./projects/travel-blog.png";
 import aigeneratorImage from "./projects/ai-generator.png";
 
 const Project = ({ image, description, link }) => (
-  <div className="project-container">
+  <div className="project">
     <img src={image} alt={description} />
     <div className="project-overlay">
       <p>{description}</p>
@@ -20,8 +20,8 @@ const Project = ({ image, description, link }) => (
 export default function Projects() {
   return (
     <section className="Projects">
-      <h1>My Recent Work</h1>
-      <div className="grid">
+      <h1 className="title">My Recent Work</h1>
+      <div className="projects-container">
         <Project
           image={weatherImage}
           description="A weather website built with React, featuring a detailed forecast and the ability to switch between different units of measurement."
