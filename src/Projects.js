@@ -20,7 +20,7 @@ const Project = ({ image, description, link }) => (
 export default function Projects() {
   return (
     <section className="Projects">
-      <h1 className="title">My Recent Work</h1>
+      <h1>My Recent Work</h1>
       <div className="grid">
         <Project
           image={weatherImage}
