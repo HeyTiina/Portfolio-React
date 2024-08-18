@@ -43,6 +43,8 @@ const Social = () => (
         </div>
       ))}
     </div>
+
+    <i class="fi fi-brands-instagram"></i>
   </section>
 );
 
