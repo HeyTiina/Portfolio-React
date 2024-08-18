@@ -21,7 +21,7 @@ const icons = {
     text: "Responsive",
   },
   React: { icon: require("./IconsT&L/react.png"), text: "React" },
-  Soon: { icon: require("./IconsT&L/soon.gif"), text: "" },
+  Python: { icon: require("./IconsT&L/python.png"), text: "Python" },
 };
 
 const Icon = ({ icon, text }) => (
@@ -37,11 +37,22 @@ export default function Knowledge() {
       <h1 className="title">
         Thank you Google Career Certificates and SheCodes!{" "}
       </h1>
-      <div className="grid-container">
-        {Object.keys(icons).map((key, index) => (
-          <Icon key={index} icon={icons[key].icon} text={icons[key].text} />
-        ))}
+      <div className="box">
+        <div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+              {Object.keys(icons).map((key, index) => (
+                <Icon
+                  key={index}
+                  icon={icons[key].icon}
+                  text={icons[key].text}
+                />
+              ))}{" "}
+            </div>
+          </div>
+        </div>
       </div>
+
     </section>
   );
 }

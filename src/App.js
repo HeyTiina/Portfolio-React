@@ -5,7 +5,6 @@ import Projects from "./Projects.js";
 import Social from "./Social.js";
 import About from "./About.js";
 import Footer from "./Footer.js";
-import Carrusel from "./Carrusel.js";
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Description />
         <About />
         <Projects />
-        <Carrusel />
         <Knowledge />
         <Social />
         <Footer />
