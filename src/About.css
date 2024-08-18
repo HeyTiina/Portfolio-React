@@ -12,13 +12,14 @@
   border-radius: 20px;
   padding: 0px;
   margin: 0px;
-  background-color: gray;
-  box-sizing: border-box; 
+  background-color: #ffedc693;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .location {
   border-left: 1px solid black;
-  flex: 1 1 calc(33.33% - 20px);   
+  flex: 1 1 calc(33.33% - 20px);
 }
 
 .special-border {
@@ -28,13 +29,11 @@
 .location ul {
   list-style-position: inside;
   margin: 30px;
-
 }
 
 .text-location {
   padding: 30px;
-    text-align: left;
-
+  text-align: left;
 }
 
 @media only screen and (max-width: 480px) {
