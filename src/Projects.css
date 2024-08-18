@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  gap: 40px;
   margin: 0 auto;
   width: 1000px;
 }
@@ -14,7 +14,6 @@
   align-items: center;
   text-align: center;
   box-sizing: border-box;
-  
 }
 
 .project img {
@@ -42,7 +41,7 @@
 
 .project:hover .project-overlay {
   opacity: 1;
-  background-color: gray;
+  background-color: #ffedc6;
 }
 
 .project-overlay p {
@@ -53,7 +52,7 @@
 
 .project-overlay a {
   background-color: #fff;
-  color: #333;
+  color: #724330;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -63,7 +62,7 @@
 }
 
 .project-overlay a:hover {
-  background-color: #132743;
+  background-color: #724330;
   color: #fff;
 }
 
