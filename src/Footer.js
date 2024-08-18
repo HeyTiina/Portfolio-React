@@ -1,9 +1,10 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="text-center">
-      <p className="p-3">
+    <footer>
+      <p>
         This project was coded by{" "}
         <a href="https://github.com/HeyTiina" target="_blank" rel="noreferrer">
           Valentina Bastidas C.
