@@ -33,7 +33,7 @@ const Icon = ({ icon, text }) => (
 
 export default function Knowledge() {
   const iconKeys = Object.keys(icons);
-  const triplicatedIconKeys = iconKeys.concat(iconKeys).concat(iconKeys); // Triplica el arreglo de iconos
+  const triplicatedIconKeys = iconKeys.concat(iconKeys).concat(iconKeys);
 
   return (
     <section className="knowledge">
