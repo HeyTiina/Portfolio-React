@@ -37,7 +37,7 @@ export default function Knowledge() {
 
   return (
     <section className="knowledge">
-      <h1 className="title">
+      <h1>
         Thank you Google Career Certificates and SheCodes!{" "}
       </h1>
       <div className="box">

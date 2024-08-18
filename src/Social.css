@@ -1,11 +1,22 @@
+.social h1 {
+    font-size: 40px;
+    margin: 120px 0px 0px 0px;
+    text-align: center;
+    text-decoration:overline;
+  }
+
 .rrss-container {
   display: flex;
   flex-wrap: wrap;
+  width: auto;
+  margin: 40px 0px 50px 0;
+  align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
 .rrss {
-  margin: 50px;
+  margin: 0px 30px;
   transition: transform 0.5s;
 }
 
@@ -15,5 +26,5 @@
 }
 
 img {
-  width: 120px;
+  width: 50px;
 }
