@@ -6,14 +6,14 @@ import "./Social.css";
 
 const socialMedia = [
   {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/valentina-bastidas-castillo-654652266/",
-    icon: linkedinIcon,
-  },
-  {
     name: "Instagram",
     url: "https://www.instagram.com/hey.tiina/",
     icon: instagramIcon,
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/valentina-bastidas-castillo-654652266/",
+    icon: linkedinIcon,
   },
   {
     name: "GitHub",
@@ -27,7 +27,6 @@ const SocialMediaItem = ({ socialMedia }) => (
     <img
       src={socialMedia.icon}
       alt={socialMedia.name}
-      className="social-icons"
     />
   </a>
 );
@@ -35,16 +34,15 @@ const SocialMediaItem = ({ socialMedia }) => (
 const Social = () => (
   <section className="social">
     <h1 className="title">Let's get in touch!</h1>
-    <h3> I'm always looking for new opportunities. Feel free to contact me!</h3>
-    <div className="grid-container-social">
+
+    <div className="rrss-container">
       {socialMedia.map((socialMediaItem) => (
-        <div key={socialMediaItem.name} className="grid-item">
+        <div key={socialMediaItem.name} className="rrss">
           <SocialMediaItem socialMedia={socialMediaItem} />
         </div>
       ))}
     </div>
 
-    <i class="fi fi-brands-instagram"></i>
   </section>
 );
 
