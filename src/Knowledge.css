@@ -1,6 +1,8 @@
 .box {
   display: grid;
   place-items: center;
+  white-space: nowrap;
+  position: relative;
 }
 
 .slider {
@@ -15,19 +17,18 @@
 
 .slide-track {
   display: flex;
-  width: calc(250px * 14);
-  animation: scroll 40s linear infinite;
+  width: calc(250px * 28);
+  animation: 50s slides linear infinite;
 }
 
-@keyframes scroll {
+@keyframes slides {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(-100%);
   }
 }
-
 
 .slide {
   height: 200px;
@@ -60,6 +61,7 @@
   transform: rotateZ(180deg);
 }
 
+
 .icon-container {
   display: flex;
   flex-direction: column;
@@ -69,5 +71,6 @@
 .icon {
   width: 100px;
   margin: 10px 50px;
+  white-space: nowrap;
 }
 

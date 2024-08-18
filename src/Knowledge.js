@@ -32,27 +32,29 @@ const Icon = ({ icon, text }) => (
 );
 
 export default function Knowledge() {
+  const iconKeys = Object.keys(icons);
+  const triplicatedIconKeys = iconKeys.concat(iconKeys).concat(iconKeys); // Triplica el arreglo de iconos
+
   return (
-    <section className="knowledge-section">
+    <section className="knowledge">
       <h1 className="title">
         Thank you Google Career Certificates and SheCodes!{" "}
       </h1>
       <div className="box">
-        <div class="slider">
-          <div class="slide-track">
-            <div class="slide">
-              {Object.keys(icons).map((key, index) => (
+        <div className="slider">
+          <div className="slide-track">
+            <div className="slide">
+              {triplicatedIconKeys.map((key, index) => (
                 <Icon
                   key={index}
                   icon={icons[key].icon}
                   text={icons[key].text}
                 />
-              ))}{" "}
+              ))}
             </div>
           </div>
         </div>
       </div>
-
     </section>
   );
 }
