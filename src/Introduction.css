@@ -21,6 +21,13 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 480px) {
-  /* Estilos específicos para pantallas pequeñas */
+@media screen and (max-width: 426px) {
+  .introduction h1 {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .Valentina-profile {
+    width: 250px;
+  }
 }
