@@ -83,3 +83,15 @@
     margin: 0 50px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .project-overlay p {
+    font-size: 12px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .project-overlay a {
+    font-size: 12px;
+  }
+}
