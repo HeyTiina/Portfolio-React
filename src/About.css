@@ -32,7 +32,8 @@
 
 .location ul {
   list-style-position: inside;
-  margin: 30px;
+  margin: 0px;
+  padding: 0;
 }
 
 .text-location {
