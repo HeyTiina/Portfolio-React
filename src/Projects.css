@@ -82,6 +82,10 @@
     gap: 40px;
     margin: 0 50px;
   }
+
+  .projects-container {
+    margin: 0 25px;
+  }
 }
 
 @media screen and (max-width: 376px) {
