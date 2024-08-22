@@ -86,12 +86,21 @@
 @media screen and (max-width: 426px) {
   .knowledge h1 {
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     margin: 80px 20px;
   }
 
   .icon {
     width: 40px;
     margin: 0px 50px;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .knowledge h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 80px 20px;
   }
 }
