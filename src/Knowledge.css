@@ -1,7 +1,7 @@
 .knowledge h1 {
   text-align: center;
   font-size: 35px;
-    margin: 80px 0px;
+  margin: 80px 0px;
 }
 
 .box {
@@ -20,13 +20,13 @@
   place-items: center;
   overflow: hidden;
   background-color: #ffedc693;
-  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .slide-track {
   display: flex;
   width: calc(250px * 14);
-  animation: 40s slides linear infinite;
+  animation: 55s slides linear infinite;
 }
 
 @keyframes slides {
@@ -50,8 +50,12 @@
 
 .slider::before,
 .slider::after {
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%);
-  content: '';
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  content: "";
   height: 100%;
   position: absolute;
   width: 15%;
@@ -68,7 +72,6 @@
   transform: rotateZ(180deg);
 }
 
-
 .icon-container {
   display: flex;
   flex-direction: column;
@@ -78,6 +81,17 @@
 .icon {
   width: 60px;
   margin: 0px 50px;
-  white-space: nowrap;
 }
 
+@media screen and (max-width: 426px) {
+  .knowledge h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 80px 20px;
+  }
+
+  .icon {
+    width: 40px;
+    margin: 0px 50px;
+  }
+}
