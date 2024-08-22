@@ -83,6 +83,12 @@
   margin: 0px 50px;
 }
 
+.little {
+  text-align: right;
+  margin: 10px 50px;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 426px) {
   .knowledge h1 {
     text-align: center;
@@ -95,7 +101,6 @@
     margin: 0px 50px;
   }
 }
-
 
 @media screen and (max-width: 376px) {
   .knowledge h1 {

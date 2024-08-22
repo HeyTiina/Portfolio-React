@@ -37,9 +37,7 @@ export default function Knowledge() {
 
   return (
     <section className="knowledge">
-      <h1>
-        Thank you Google Career Certificates and SheCodes!{" "}
-      </h1>
+      <h1>Thank you Google Career Certificates and SheCodes! </h1>
       <div className="box">
         <div className="slider">
           <div className="slide-track">
@@ -54,6 +52,9 @@ export default function Knowledge() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="little">
+        <em>The stuff I know!</em>
       </div>
     </section>
   );
