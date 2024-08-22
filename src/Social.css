@@ -1,9 +1,7 @@
 .social h1 {
-    font-size: 40px;
-    margin: 120px 0px 0px 0px;
-    text-align: center;
-    text-decoration:overline;
-  }
+  margin: 120px 0px 0px 0px;
+  text-align: center;
+}
 
 .rrss-container {
   display: flex;
