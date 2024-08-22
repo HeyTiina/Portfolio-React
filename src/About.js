@@ -53,7 +53,7 @@ export default function About() {
               been surrounded by geeky friends, which was contagious.
             </div>
           </div>
-          <div className="location">
+          <div className="location special-border2">
             <img className="country" src={Zurich} alt="Zurich" />
             <h3>
               Living in Zürich{" "}

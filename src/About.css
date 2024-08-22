@@ -29,7 +29,6 @@
 
 .location {
   border-left: 1px solid black;
-  flex: 1 1 calc(33.33% - 20px);
 }
 
 .special-border {
@@ -51,11 +50,31 @@
 }
 
 @media screen and (max-width: 1024px) {
-.location h3 {
-  padding: 10px;
+  .location h3 {
+    padding: 10px;
+  }
 }
 
-}
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
 
-@media screen and (max-width: 376px) {
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffedc693;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .location {
+    border-left: none;
+    border-bottom: 1px solid black;
+  }
+
+  .special-border2 {
+    border-bottom: 0px solid black;
+  }
 }
