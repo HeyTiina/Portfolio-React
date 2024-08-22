@@ -1,8 +1,15 @@
 import React from "react";
 import "./About.css";
+
 import Mallorca from "./locations/Mallorca.jpg";
 import Cali from "./locations/Cali.jpg";
 import Zurich from "./locations/Zurich.jpg";
+
+import Spain from "./flags/Spain.png";
+import Colombia from "./flags/Colombia.png";
+import Switzerland from "./flags/Switzerland.png";
+
+
 
 export default function About() {
   return (
@@ -15,7 +22,7 @@ export default function About() {
             <h3>
               Born in Cali{" "}
               <span>
-                <img className="flag" src={Zurich} alt="Zurich" />
+                <img className="flag" src={Colombia} alt="Colombia" />
               </span>
             </h3>
             <div className="text-location">
@@ -29,7 +36,7 @@ export default function About() {
             <h3>
               Raised in Mallorca{" "}
               <span>
-                <img className="flag" src={Zurich} alt="Zurich" />
+                <img className="flag" src={Spain} alt="Spain" />
               </span>
             </h3>
             <div className="text-location">
@@ -51,7 +58,7 @@ export default function About() {
             <h3>
               Living in Zürich{" "}
               <span>
-                <img className="flag" src={Zurich} alt="Zurich" />
+                <img className="flag" src={Switzerland} alt="Switzerland" />
               </span>
             </h3>
 
