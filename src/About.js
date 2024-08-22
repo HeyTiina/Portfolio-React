@@ -48,7 +48,7 @@ export default function About() {
                 <li>Adapting to changes big and small,</li>
                 <li>Learning new skills, real fast,</li>
                 <li>Problem-solving everything.</li>
-              </ul>{" "}
+              </ul>{" "} <br></br>
               Skills that I definitely use in my IT projects. Because yes, I’ve
               been surrounded by geeky friends, which was contagious.
             </div>
