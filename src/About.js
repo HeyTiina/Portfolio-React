@@ -14,7 +14,12 @@ export default function About() {
         <div className="container">
           <div className="location special-border">
             <img className="country" src={Cali} alt="Cali" />
-            <h3>Born in Cali, Colombia</h3> 
+            <h3>
+              Born in Cali{" "}
+              <span>
+                <img className="flag" src={Zurich} alt="Zurich" />
+              </span>
+            </h3>
             <div className="text-location">
               Developed a love for boardgames, videogames, rol games and every
               other word with the word ‘’games’’ included.
@@ -22,7 +27,12 @@ export default function About() {
           </div>
           <div className="location">
             <img className="country" src={Mallorca} alt="Mallorca" />
-            <h3>Raised in Mallorca, Spain</h3>
+            <h3>
+              Raised in Mallorca{" "}
+              <span>
+                <img className="flag" src={Zurich} alt="Zurich" />
+              </span>
+            </h3>
             <div className="text-location">
               Worked in catering services next to my studies I have developed
               exceptional skills as:{" "}
@@ -38,7 +48,13 @@ export default function About() {
           </div>
           <div className="location">
             <img className="country" src={Zurich} alt="Zurich" />
-            <h3>Living in zürich, Switzerland</h3> 
+            <h3>
+              Living in Zürich{" "}
+              <span>
+                <img className="flag" src={Zurich} alt="Zurich" />
+              </span>
+            </h3>
+
             <div className="text-location">
               Moved to Switzerland, I though that this was the time to make a
               change and enrolled in some online courses.
