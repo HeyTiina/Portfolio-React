@@ -4,8 +4,6 @@ import Mallorca from "./locations/Mallorca.jpg";
 import Cali from "./locations/Cali.jpg";
 import Zurich from "./locations/Zurich.jpg";
 
-
-
 export default function About() {
   return (
     <section className="about">
@@ -21,8 +19,9 @@ export default function About() {
               </span>
             </h3>
             <div className="text-location">
-              Developed a love for boardgames, videogames, rol games and every
-              other word with the word ‘’games’’ included.
+              Developed a love for board games, video games, role games and
+              every other combination you can think of with the word “game” in
+              it.
             </div>
           </div>
           <div className="location">
@@ -34,16 +33,17 @@ export default function About() {
               </span>
             </h3>
             <div className="text-location">
-              Worked in catering services next to my studies I have developed
-              exceptional skills as:{" "}
+              Studied and worked at the same time in arguably the most
+              challenging environment that is catering services in a touristic
+              hub. You can count on expert skills I gained like:{" "}
               <ul>
-                <li>working under pressure</li>
-                <li>adaptability</li>
-                <li>quick learning</li>
-                <li>problem-solving</li>
+                <li>Working under pressure and not dying,</li>
+                <li>Adapting to changes big and small,</li>
+                <li>Learning new skills, real fast,</li>
+                <li>Problem-solving everything.</li>
               </ul>{" "}
-              Being surrunded by my friends and their interest in IT, they
-              helped to build my own interest in it!
+              Skills that I definitely use in my IT projects. Because yes, I’ve
+              been surrounded by geeky friends, which was contagious.
             </div>
           </div>
           <div className="location">
@@ -56,12 +56,12 @@ export default function About() {
             </h3>
 
             <div className="text-location">
-              Moved to Switzerland, I though that this was the time to make a
-              change and enrolled in some online courses.
-              <div className="mt-4">
-                The journey has been great, a learned a lot and I have still a
-                lot more to learn.
-              </div>
+              Took the opportunity to really focus on becoming a developer
+              besides my day-work by enrolling in several courses. <br></br>{" "}
+              <br></br>I still have a lot more to learn but the journey so far
+              has been really fun and interesting. I am looking forward to
+              working on many projects with amazing people to build beautifully
+              designed digital solutions.
             </div>
           </div>
         </div>
