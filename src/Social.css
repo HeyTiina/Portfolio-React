@@ -5,11 +5,7 @@
 
 .rrss-container {
   display: flex;
-  flex-wrap: wrap;
-  width: auto;
-  margin: 40px 0px 50px 0;
-  align-items: center;
-  text-align: center;
+  margin: 50px 0;
   justify-content: center;
 }
 
@@ -25,4 +21,10 @@
 
 img {
   width: 50px;
+}
+
+@media screen and (max-width: 321px) {
+  img {
+    width: 40px;
+  }
 }
