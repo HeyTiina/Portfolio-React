@@ -100,6 +100,12 @@
     width: 40px;
     margin: 0px 50px;
   }
+
+  .little {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 376px) {
