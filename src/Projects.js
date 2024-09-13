@@ -30,7 +30,7 @@ export default function Projects() {
         <Project
           image={travelblogImage}
           description="A travel blog that showcases advanced CSS techniques, enhancing the visual appeal and user experience."
-          link="https://travel-blog-deals.netlify.app"
+          link="https://travelw-tiina.netlify.app"
         />
         <Project
           image={dictionaryImage}
@@ -40,7 +40,7 @@ export default function Projects() {
         <Project
           image={aigeneratorImage}
           description="Meet your AI assistant, Tina, ready to answer any questions you have. Explore the possibilities with this AI generator."
-          link="https://ai-bytiina.netlify.app"
+          link="https://ai-byttina.netlify.app"
         />
       </div>
     </section>
