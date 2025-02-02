@@ -4,6 +4,8 @@ import weatherImage from "./projects/weather-site.png";
 import dictionaryImage from "./projects/Dictionary.png";
 import travelblogImage from "./projects/travel-blog.png";
 import aigeneratorImage from "./projects/ai-generator.png";
+import kyndShop from "./projects/kynd-shop.png";
+
 
 const Project = ({ image, description, link }) => (
   <div className="project">
@@ -41,6 +43,11 @@ export default function Projects() {
           image={aigeneratorImage}
           description="Meet your AI assistant, Tina, ready to answer any questions you have. Explore the possibilities with this AI generator."
           link="https://ai-byttina.netlify.app"
+        />
+        <Project
+          image={kyndShop}
+          description="My latest project! Want the best bagels in town? Check out our menu and enjoy the finest!"
+          link="https://kynd-zh.netlify.app/"
         />
       </div>
     </section>
